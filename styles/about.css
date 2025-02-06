@@ -1,0 +1,53 @@
+.about {
+    text-align: center;
+    background-color: var(--bg-main-gray);
+    color: var(--font-color);
+    padding: 60px 30px 100px 30px;
+}
+
+.about-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 40px;
+}
+
+.about-subtitle-ru {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+
+.about-description-ru {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+.about-subtitle-ru,
+.about-subtitle-en {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+.about-description-ru,
+.about-description-en {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    text-align: justify;
+    
+}
+.about-subtitle-en {
+    margin: 15px auto 15px;
+}
+.about-description-en {
+    margin: 0 auto;
+}
+@media (max-width: 480px) {
+    .about-subtitle-ru,
+.about-subtitle-en
+.about-description-ru,
+.about-description-en
+    {
+        font-size: 14px;
+    }
+ }
